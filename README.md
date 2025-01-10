@@ -133,4 +133,19 @@ Run the server and view on your development port i.e http://127.0.0.1:8000/
 - Represented Categories and Tags as objects that only had a name field.
 - Products could have many Tags or none.
 - Products could only belong to one Category.
-- The dataset is relatively small.
+- The dataset and search volume are relatively small.
+  
+## Potential Improvements
+
+### Search Optimization
+
+- Full-text index search with rather than using a simple partial search with icontains.
+
+### Interface Improvements
+
+- User Interface could be improved by leveraging front-end frameworks like Angular or React.
+
+### Database Scaling
+
+- Adjustments would have to be made to the architecture of the database to account for large-scale read and writes.
+
