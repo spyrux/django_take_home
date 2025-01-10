@@ -1,4 +1,4 @@
-# Remarcable Django Take Home
+# Django Store Application
 
 This project is a simple Django application that models products, categories, and tags. Users are able to search for keywords in the products descriptions, filter by tags, and filter by categories. 20 products, 5 categories, and 12 tags have been created with Django Admin and provided as an example database.
 
