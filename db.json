@@ -1,0 +1,951 @@
+[
+{
+    "model": "store.category",
+    "pk": 1,
+    "fields": {
+        "name": "Electronics"
+    }
+},
+{
+    "model": "store.category",
+    "pk": 2,
+    "fields": {
+        "name": "Clothing"
+    }
+},
+{
+    "model": "store.category",
+    "pk": 3,
+    "fields": {
+        "name": "Food"
+    }
+},
+{
+    "model": "store.category",
+    "pk": 4,
+    "fields": {
+        "name": "Kitchen"
+    }
+},
+{
+    "model": "store.category",
+    "pk": 5,
+    "fields": {
+        "name": "Beverage"
+    }
+},
+{
+    "model": "store.tag",
+    "pk": 1,
+    "fields": {
+        "name": "Imported"
+    }
+},
+{
+    "model": "store.tag",
+    "pk": 2,
+    "fields": {
+        "name": "Apple"
+    }
+},
+{
+    "model": "store.tag",
+    "pk": 3,
+    "fields": {
+        "name": "Headphones"
+    }
+},
+{
+    "model": "store.tag",
+    "pk": 4,
+    "fields": {
+        "name": "Computer"
+    }
+},
+{
+    "model": "store.tag",
+    "pk": 5,
+    "fields": {
+        "name": "Phone"
+    }
+},
+{
+    "model": "store.tag",
+    "pk": 6,
+    "fields": {
+        "name": "Fruit"
+    }
+},
+{
+    "model": "store.tag",
+    "pk": 7,
+    "fields": {
+        "name": "Sweet"
+    }
+},
+{
+    "model": "store.tag",
+    "pk": 8,
+    "fields": {
+        "name": "Vegetable"
+    }
+},
+{
+    "model": "store.tag",
+    "pk": 10,
+    "fields": {
+        "name": "Snack"
+    }
+},
+{
+    "model": "store.tag",
+    "pk": 11,
+    "fields": {
+        "name": "Game"
+    }
+},
+{
+    "model": "store.tag",
+    "pk": 12,
+    "fields": {
+        "name": "Bottoms"
+    }
+},
+{
+    "model": "store.tag",
+    "pk": 13,
+    "fields": {
+        "name": "Tops"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 1,
+    "fields": {
+        "description": "iPhone 16",
+        "name": "iPhone 16",
+        "category": 1,
+        "tags": [
+            2,
+            5
+        ]
+    }
+},
+{
+    "model": "store.product",
+    "pk": 2,
+    "fields": {
+        "description": "Apple Headphones",
+        "name": "Airpod Max",
+        "category": 1,
+        "tags": [
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "store.product",
+    "pk": 3,
+    "fields": {
+        "description": "Red apple",
+        "name": "Macintosh Apple",
+        "category": 3,
+        "tags": [
+            6,
+            7
+        ]
+    }
+},
+{
+    "model": "store.product",
+    "pk": 4,
+    "fields": {
+        "description": "Juice from apple",
+        "name": "Apple Juice",
+        "category": 5,
+        "tags": [
+            6,
+            7
+        ]
+    }
+},
+{
+    "model": "store.product",
+    "pk": 5,
+    "fields": {
+        "description": "Portable gaming system",
+        "name": "Nintendo Switch",
+        "category": 1,
+        "tags": [
+            11
+        ]
+    }
+},
+{
+    "model": "store.product",
+    "pk": 6,
+    "fields": {
+        "description": "Headphones",
+        "name": "Beats By Dr Dre",
+        "category": 1,
+        "tags": [
+            3
+        ]
+    }
+},
+{
+    "model": "store.product",
+    "pk": 7,
+    "fields": {
+        "description": "Headphones",
+        "name": "Airpods Pro",
+        "category": 1,
+        "tags": [
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "store.product",
+    "pk": 8,
+    "fields": {
+        "description": "Laptop",
+        "name": "Macbook Pro",
+        "category": 1,
+        "tags": [
+            2,
+            4
+        ]
+    }
+},
+{
+    "model": "store.product",
+    "pk": 9,
+    "fields": {
+        "description": "Chips",
+        "name": "Pringles",
+        "category": 3,
+        "tags": [
+            10
+        ]
+    }
+},
+{
+    "model": "store.product",
+    "pk": 10,
+    "fields": {
+        "description": "Orange sticks",
+        "name": "Carrots",
+        "category": 3,
+        "tags": [
+            8
+        ]
+    }
+},
+{
+    "model": "store.product",
+    "pk": 11,
+    "fields": {
+        "description": "Green tea from Asia",
+        "name": "Green Tea",
+        "category": 5,
+        "tags": [
+            1,
+            7
+        ]
+    }
+},
+{
+    "model": "store.product",
+    "pk": 12,
+    "fields": {
+        "description": "Knife to cut",
+        "name": "Chef's Knife",
+        "category": 4,
+        "tags": []
+    }
+},
+{
+    "model": "store.product",
+    "pk": 13,
+    "fields": {
+        "description": "Knife from Japan",
+        "name": "Sushi Knife",
+        "category": 4,
+        "tags": [
+            1
+        ]
+    }
+},
+{
+    "model": "store.product",
+    "pk": 14,
+    "fields": {
+        "description": "Sweatshirt with a hood",
+        "name": "Hoodie",
+        "category": 2,
+        "tags": [
+            13
+        ]
+    }
+},
+{
+    "model": "store.product",
+    "pk": 15,
+    "fields": {
+        "description": "Hoodie from Japan",
+        "name": "Japanese Hoodie",
+        "category": 2,
+        "tags": [
+            1,
+            13
+        ]
+    }
+},
+{
+    "model": "store.product",
+    "pk": 16,
+    "fields": {
+        "description": "Jeans from levi's",
+        "name": "Levi's Denim",
+        "category": 2,
+        "tags": [
+            12
+        ]
+    }
+},
+{
+    "model": "store.product",
+    "pk": 17,
+    "fields": {
+        "description": "Denim from Japan",
+        "name": "Japanese Denim",
+        "category": 2,
+        "tags": [
+            1,
+            12
+        ]
+    }
+},
+{
+    "model": "store.product",
+    "pk": 18,
+    "fields": {
+        "description": "Pot for cooking",
+        "name": "Pot",
+        "category": 4,
+        "tags": []
+    }
+},
+{
+    "model": "store.product",
+    "pk": 19,
+    "fields": {
+        "description": "Sports drink",
+        "name": "Gatorade",
+        "category": 5,
+        "tags": [
+            7
+        ]
+    }
+},
+{
+    "model": "store.product",
+    "pk": 20,
+    "fields": {
+        "description": "Gives you wings",
+        "name": "Redbull",
+        "category": 5,
+        "tags": [
+            7
+        ]
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2025-01-09T04:23:07.740Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Category object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2025-01-09T04:24:55.760Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Category object (1)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2025-01-09T04:25:07.985Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Category object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2025-01-09T04:25:13.343Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Category object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2025-01-09T04:25:23.163Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Category object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2025-01-09T04:26:17.873Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "Category object (5)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2025-01-09T04:26:29.635Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Tag object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2025-01-09T04:26:41.289Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Tag object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2025-01-09T04:27:25.454Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Tag object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2025-01-09T04:28:48.187Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Tag object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2025-01-09T04:29:01.095Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Tag object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2025-01-09T04:29:04.818Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Tag object (5)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2025-01-09T04:29:08.383Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "Tag object (6)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2025-01-09T04:29:21.510Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Tag object (7)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2025-01-09T04:29:27.891Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Tag object (8)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2025-01-09T04:29:30.816Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "Tag object (9)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2025-01-09T04:29:34.208Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Tag object (10)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2025-01-09T04:34:07.203Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "iPhone 16",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2025-01-09T04:34:34.800Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Airpod Max",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2025-01-09T04:35:03.885Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Macintosh Apple",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2025-01-09T04:35:37.993Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Apple Juice",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2025-01-09T04:35:59.361Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "Fruit",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2025-01-09T04:36:13.714Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Game",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2025-01-09T04:36:57.755Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Nintendo Switch",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2025-01-09T04:37:19.829Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "Beats By Dr Dre",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2025-01-09T04:37:35.894Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Airpods Pro",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2025-01-09T04:37:56.237Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "Macbook Pro",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2025-01-09T04:38:12.976Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "Pringles",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2025-01-09T04:38:26.877Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "10",
+        "object_repr": "Carrots",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2025-01-09T04:38:48.229Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "11",
+        "object_repr": "Green Tea",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2025-01-09T04:40:39.161Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "12",
+        "object_repr": "Chef's Knife",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2025-01-09T04:41:00.314Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "13",
+        "object_repr": "Sushi Knife",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2025-01-09T04:41:27.841Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "14",
+        "object_repr": "Hoodie",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2025-01-09T04:41:42.981Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "15",
+        "object_repr": "Japanese Hoodie",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2025-01-09T04:42:37.636Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "Bottoms",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2025-01-09T04:42:44.365Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "Tops",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2025-01-09T04:42:54.032Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "14",
+        "object_repr": "Hoodie",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2025-01-09T04:43:01.057Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "15",
+        "object_repr": "Japanese Hoodie",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2025-01-09T04:43:30.283Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "16",
+        "object_repr": "Levi's Denim",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2025-01-09T04:43:46.825Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "17",
+        "object_repr": "Japanese Denim",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2025-01-09T04:44:22.114Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "18",
+        "object_repr": "Pot",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2025-01-09T04:45:04.099Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "19",
+        "object_repr": "Gatorade",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2025-01-09T04:45:31.329Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "20",
+        "object_repr": "Redbull",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$qwlG19qqHKgPrvGDRyyhnK$5Mue4GmDARXDmpGN7RV3LIETB2la3l3nA6/3HA9tBS4=",
+        "last_login": "2025-01-09T04:21:16.887Z",
+        "is_superuser": true,
+        "username": "user",
+        "first_name": "",
+        "last_name": "",
+        "email": "cuimingxi@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-01-09T04:20:47.666Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "8bpnsmfi3357iogrisxxxxoasi00tksw",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hAoU0CX7j0DYYZBqgaS0q6Md7dNutDte-__twhxXUpYO89hSuIitDj9Moz05LqL9Ij13iS1uswTyj2Rh-3y1hK_rkf7d1BiL9vaIhs7IEcbYVSgtVOQSTl13rBHp8EZg95THrSnERJbx8iQDTnMisTnC8ZON5s:1tVk2m:szQwi8f3R8HgE8IckyVuv3gSpsy4aD4etVNP_hNOxMo",
+        "expire_date": "2025-01-23T04:21:16.897Z"
+    }
+}
+]
