@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from .models import Product, Category, Tag
 
+
 def StoreListView(request):
     """
     Displays a list of :model:store.Product filtered by query, Category, and Tags.
@@ -18,35 +19,34 @@ def StoreListView(request):
 
     - :template:`store/index.html`
     """
-    
-    query = request.GET.get('query', '')
-    category_id = request.GET.get('category', None)
-    tag_ids = request.GET.getlist('tags')
 
-    
+    query = request.GET.get("query", "")
+    category_id = request.GET.get("category", None)
+    tag_ids = request.GET.getlist("tags")
+
     filters = {}
     if query:
-        filters['description__icontains'] = query
+        filters["description__icontains"] = query
     if category_id:
-        filters['category_id'] = category_id
+        filters["category_id"] = category_id
 
     products = Product.objects.filter(**filters)
 
     for tag_id in tag_ids:
         products = products.filter(tags__id=tag_id).distinct()
 
-    products = products.select_related('category').prefetch_related('tags')
+    products = products.select_related("category").prefetch_related("tags")
 
-    categories = Category.objects.only('id', 'name')
-    tags = Tag.objects.only('id', 'name')
+    categories = Category.objects.only("id", "name")
+    tags = Tag.objects.only("id", "name")
 
     context = {
-        'products': products,
-        'categories': categories,
-        'tags': tags,
-        'query': query,
-        'category_id': category_id,
-        'tag_ids': tag_ids,
+        "products": products,
+        "categories": categories,
+        "tags": tags,
+        "query": query,
+        "category_id": category_id,
+        "tag_ids": tag_ids,
     }
 
-    return render(request, 'store/index.html', context)
+    return render(request, "store/index.html", context)
